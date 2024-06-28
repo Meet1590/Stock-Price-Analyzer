@@ -1,0 +1,21 @@
+Stock Price Prediction Web Application
+
+Entrypoint: App.py
+
+How to execute? 
+
+Type following command in terminal having valid python environement with listed dependencies specified into requirements.txt
+streamlit run app.py
+
+How to train model again with different hyperparmeters?
+
+Model can be trained by executing lastm_training.py file with customized hyperparmeters values through appropriate IDE
+
+How to use Application ?
+Demo video is attached with the word file.
+Some amount of domain knowledge of finance is required to interpret the info on the dashboarc.
+
+How to execute test scripts ?
+Ensure that you are in a main directry of project via terminal.
+after that just type 'pytest'
+It will run all the scripts and will print all the results into terminal. 
