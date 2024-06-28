@@ -30,5 +30,6 @@ Data Sources
             ![Screenshot (296)](https://github.com/Meet1590/Stock-Price-Analyzer/assets/63838050/ede65733-5a1a-4513-b120-674d498d3730)
 
 UI
-            ![image](https://github.com/Meet1590/Stock-Price-Analyzer/assets/63838050/5e817390-176f-4918-8928-81e50672658f)
+            ![Screenshot (297)](https://github.com/Meet1590/Stock-Price-Analyzer/assets/63838050/beadaaa7-8839-4091-8352-a0046fafd225)
+
 
