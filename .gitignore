@@ -1,0 +1,10 @@
+# Video file
+.stock-analyzer-and-predictor-dashboard-brave-2024-04-15-13-25-14.mp4
+
+# Data directory
+/data
+
+# test directory
+
+# pycache directory
+__pycache__/
