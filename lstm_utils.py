@@ -18,6 +18,7 @@ from data_utils import get_raw_data, DataLoader, descaleValues, getDataframeSize
 #scaler object
 scaler = MinMaxScaler(feature_range=(-1, 1))
 
+
 #LSTM Model Definition
 class LSTM(nn.Module):
     def __init__(self, input_size: int, hidden_size: int, num_stacked_layers: int):
@@ -141,7 +142,7 @@ def get_predictions(symbol, n):
     symbol = symbol
 
     #loads pretrained model
-    model = torch.load('./best_trained model.pth')
+    model = torch.load('./best_trained model.pth', weights_only=False)
     device = 'cpu'
     model.to(device)
     #evaluation mode enabled

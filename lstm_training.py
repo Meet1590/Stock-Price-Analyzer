@@ -12,6 +12,7 @@ from torch.utils.data import Dataset, DataLoader
 from lstm_utils import trainModel, trainOneEpoch, validateOneEpoch, LSTM, calculate_accuracy
 
 scaler = MinMaxScaler(feature_range=(-1,1))
+torch.serialization.add_safe_globals([lstm_utils.LSTM])
 
 from data_utils import convert_to_dateTimeObject, sort_data_frame, scalingData,dataPreparationForModel,createDataLoaders, StockDataset, descaleValues, DataLoader
 

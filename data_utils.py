@@ -276,6 +276,6 @@ def prepared_data(scaler, data = None):
     except Exception as e:
         print("Error occurred during data preparation:", e)
         return None, None, None
-
+ 
 if __name__ == "__main__":
     main()
