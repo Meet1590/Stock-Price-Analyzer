@@ -23,12 +23,12 @@ Build a predictive system that:
  - ♻️ Reproducible training & inference pipelines
 
 ## 🏗️ Project Structure
-app.py – Streamlit application (visualisation & inference)
-lstm_training.py – Model training & experimentation
-lstm_utils.py – LSTM architecture & helpers
-finbert_utils.py – Financial sentiment processing
-data_utils.py – Data preprocessing & feature engineering
-best_trained_model.pth – Persisted best-performing model
+- app.py – Streamlit application (visualisation & inference)
+- lstm_training.py – Model training & experimentation
+- lstm_utils.py – LSTM architecture & helpers
+- finbert_utils.py – Financial sentiment processing
+- data_utils.py – Data preprocessing & feature engineering
+- best_trained_model.pth – Persisted best-performing model
 
 ## 🧠 Solution Approach
 ### 1. Data Ingestion
@@ -65,7 +65,7 @@ Programming Language: Python
 
 ## ▶️ How to Run the Project
 
-###Clone the repository:
+### Clone the repository:
 git clone https://github.com/Meet1590/<repository-name>.git
 cd <repository-name>
 
@@ -90,10 +90,10 @@ python lstm_training.py
 - Ability to structure ML projects in a production-oriented manner
 
 ## 👤 Author
-Meetkumar Patel
-Machine Learning / Data Science
-GitHub: https://github.com/Meet1590
-LinkedIn: https://www.linkedin.com/in/meet-07-patel/
+**Meetkumar Patel**
+- **Machine Learning / Data Science**
+- **GitHub**: https://github.com/Meet1590
+- **LinkedIn**: https://www.linkedin.com/in/meet-07-patel/
 
 ## 🔍 Notes for Recruiters
  - Code is written for clarity and extensibility
